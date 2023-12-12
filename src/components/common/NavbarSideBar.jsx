@@ -95,7 +95,7 @@ const NavbarSideBar = ({
           className="mt-4 flex justify-end  text-sm"
           onClick={() => toggleSideBar()}
         >
-          <p className=" bg-richblack-500 px-3 py-1">Close</p>
+          <p className=" bg-richblack-500 px-3 py-1 cursor-pointer">Close</p>
         </motion.div>
       </motion.div>
     </motion.div>

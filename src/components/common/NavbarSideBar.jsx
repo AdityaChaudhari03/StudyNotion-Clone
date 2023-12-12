@@ -27,6 +27,12 @@ const NavbarSideBar = ({
         {/* Nav Links */}
         <div className=" lg:hidden md:hidden">
           <ul className="flex flex-col gap-6 text-richblack-25">
+            <button className="cursor-pointer bg-richblack-800 w-full rounded-lg p-2">
+              <Link to="/login">Login</Link>
+            </button>
+            <button className="cursor-pointer bg-richblack-800 w-full rounded-lg p-2">
+              <Link to="/signup">Sign Up</Link>
+            </button>
             {NavbarLinks?.map((link, index) => (
               <motion.li
                 {...framerText(index)}

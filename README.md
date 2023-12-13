@@ -32,10 +32,6 @@
 
 ## Deployment
 
-Frontend - Vercel: 
+Frontend - Vercel: https://studynotionbyaditya.vercel.app
 
 Backend - Render
-
-
-Note: There are times when the server is not running on the render due to which the database does not connect. In such times just hit the backend API link on the other (It is not a good practice but that is the only way to run it while using the free tier)
-

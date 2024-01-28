@@ -13,7 +13,6 @@ const otpSchema = new mongoose.Schema({
     },
     createdAt: {
         type: String,
-        //check whether changes is needed
         default: Date.now(),
         expires: 5*60*1000,
     }
